@@ -1,0 +1,21 @@
+/* 
+Programmer: Amritpal Singh
+File Name: Footer.css
+Date: 1 February 2022
+Descrition: Contain styling for Footer.css
+*/
+
+
+.sitefooter {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .sitefooter {
+    font-size: 1rem;
+  }
+}
